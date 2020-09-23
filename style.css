@@ -3,7 +3,7 @@
 }
 
 
-.projects {
+#projects {
     margin-top: 80px;
 }
 
@@ -15,11 +15,11 @@ address {
     margin-left: 20px; 
 }
 
-.contact {
+#contact {
     margin-top: 80px; 
 }
 
-.social {
+#social {
     display: inline-flex;
     margin-top: 20px; f
     }
