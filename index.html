@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"><link rel="stylesheet" href="style.css">
 
     <title>Tara Davies Resume</title>
   </head>
   <body>
+    <div class="name">
     <h1>Tara Davies</h1>
+    </div>
     <!--requirements
     Navigation
     Intro (perhaps the jumbotron?)
@@ -20,9 +22,6 @@
     Contact Info
     Links to social networks-->
     <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Intro</a>
-        </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Skills</a>
         </li>
@@ -35,7 +34,69 @@
          <li class="nav-item">
            <a class="nav-link" href="#">Follow</a>
          </li>
+    </ul>
 
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">My name is Tara Davies and I'm currently enrolled in DigitalCrafts full stack engineer bootcamp. I've been working many different areas of tech for 7 years and excited to enter the world of software engineering!</p>   
+    </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+    <ul class="list-group">
+        <li class="list-group-item">HTML</li>
+        <li class="list-group-item">CSS</li>
+        <li class="list-group-item">JavaScript</li>
+        <li class="list-group-item">Bootstrap</li>
+      </ul>
+    </div>
+   
+    <div class="projects">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Pixelart Mario</h5>
+                  <p class="card-text">A pixelated Mario from Super Mario Bros. built only with Bootstrap components.</p>
+                  <a href="https://github.com/taradactyl9/pixelart" target="blank" class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">HTML/CSS Resume</h5>
+                  <p class="card-text">Faux resume built with HTML and CSS only.</p>
+                  <a href="https://github.com/taradactyl9/resume-project" target="blank" class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Info</h2>
+        <address>
+            <strong>Tara Davies</strong><br>
+            1355 Market St, Suite 900<br>
+            San Francisco, CA 94103<br>
+            <abbr title="Phone">P:</abbr> (123) 456-7890
+          </address>
+    </div>
+
+    <div class="social">
+             <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="https://twitter.com/djtaradactyl" target="blank">
+              <img src="twitter button.png" width="98" height="90" alt="">
+            </a>
+          </nav>
+          <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="https://www.facebook.com/djTaradactyl/" target="blank">
+              <img src="fb button.jpg" width="80" height="80" alt="">
+            </a>
+          </nav>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
